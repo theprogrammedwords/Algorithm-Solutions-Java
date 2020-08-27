@@ -40,4 +40,4 @@ public class SieveOfEratosthenes{
                     isPrime[k] = false;
     }
     
-    }
+    } 
