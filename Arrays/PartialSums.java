@@ -1,6 +1,6 @@
 public class PartialSums {
     
-    /* 
+    /*  
         The partial sums array calculation technique 
         helps in answering queries in constant time.
         For this we are maintaining an extra array s[] which
