@@ -1,1 +1,1 @@
-Categorized programs with Mathematics category
+Programs based on basic mathematics in a possible optimal way.
