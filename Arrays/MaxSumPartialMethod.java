@@ -1,3 +1,4 @@
+//Maximum sum calculation in an array using partial sum method 
 public class MaxSumPartialMethod {
     static int Nmax = 1001;
     static int[] a = new int[Nmax];
