@@ -1,3 +1,4 @@
+//Program based on Frequency array
 public class FrequencyArray{
     static int Nmax = 1001;
     static int[] fr = new int[Nmax];
