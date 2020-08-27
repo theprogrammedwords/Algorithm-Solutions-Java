@@ -1,3 +1,4 @@
+//Program based on MaxSumArray Calculation using Greedy Approach
 public class GreedyMaxSumSubarray {
     static int Nmax = 10001;
     static int[] a = new int[Nmax];
