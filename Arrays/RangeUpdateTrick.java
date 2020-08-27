@@ -1,3 +1,4 @@
+//Range Update Trick
 public class RangeUpdateTrick {
     static int Nmax = 1001;
     static int[] a = new int[Nmax];
