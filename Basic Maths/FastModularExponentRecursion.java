@@ -39,5 +39,5 @@
             //case if exponent is odd    
             // a ^ n = a * (a ^ (n-1))
             return (a * fastExpo( a, n-1, mod)) % mod;
-        }
+        } 
     }
