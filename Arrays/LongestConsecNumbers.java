@@ -1,3 +1,4 @@
+//Longest Consecutive Numbers Sequence Calculation 
 public class LongestConsecNumbers{
     static int Nmax = 100001;
     static int[] a = new int[Nmax];
