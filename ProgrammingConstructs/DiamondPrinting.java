@@ -1,6 +1,17 @@
 /*Given a number n, you have to print a diamond-shaped pattern with 2n-1 rows using '*'.
 
-For eg. if n = 5 pattern will be:*/
+For eg. if n = 5 pattern will be:
+    * 
+   * * 
+  * * * 
+ * * * * 
+* * * * * 
+ * * * * 
+  * * * 
+   * * 
+    * 
+
+*/
 
 import java.util.*;
 
