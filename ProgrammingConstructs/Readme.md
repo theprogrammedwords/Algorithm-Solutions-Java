@@ -1,2 +1,1 @@
-
- Programming problems solved using basic programming constructs
+Programming problems solved using basic programming constructs
