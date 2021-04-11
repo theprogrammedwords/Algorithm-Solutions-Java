@@ -1,3 +1,5 @@
+//Given a number, return the reverse of that number.
+
 import java.util.*;
 
 class ReverseNum {
