@@ -9,7 +9,7 @@ public class ListNode {
 }
 
 
-public class Solution {
+public class ListNodeDuplicateCounterDriver {
     public int countDuplicatesInALinkedList(ListNode head){
 	int count = 0; 
   
