@@ -1,3 +1,7 @@
+/*
+Given an array containing n elements and given a value x. Find the index of the x in the array. 
+If there are multiple occurrences then find the leftmost one and if x is not present return -1.
+*/
 import java.util.*;
 
 class FindElement {
