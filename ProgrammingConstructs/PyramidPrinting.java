@@ -30,3 +30,4 @@ class PyramidPrinting {
         return result;
     }
 }
+ 
