@@ -3,6 +3,9 @@
 import crio.ds.List.ListNode;
 import java.util.*;
 
+import crio.ds.List.ListNode;
+import java.util.*;
+
 /*
 public class ListNode {
     public int val;
@@ -15,29 +18,42 @@ public class ListNode {
 
 Use new ListNode(data) to create new node
 */
-class LinkedListInsertion {
+class Solution {
 
     ListNode head;
     ListNode tail;
 
-    LinkedListInsertion() {
+    Solution() {
         this.head = this.tail = null;
     }
 
     public void insertAtBeginning(int data) {
         ListNode node = new ListNode(data);
-        node.next = head;
-        head = node;
+        if (head == null)
+        {
+            head = node;
+            tail = node;
+        }else{
+            node.next = head;
+            head = node;       
+        }
     }
 
     public void insertAtEnd(int data) {
-        ListNode node = new ListNode(data);   
         
+        ListNode node = new ListNode(data);   
+       //logic to add the element using tail
         if (head == null)
         {
-            head = new ListNode(data);
+            head = node;
+            tail = node;
+        }else{
+            tail.next = node;
+            tail = node;
         }
-        else if(head != null){
+
+      //logic to add the element using traversal
+      /*  else if(head != null){
             node.next = null;
             ListNode n = head;
             
@@ -46,6 +62,7 @@ class LinkedListInsertion {
             }
         n.next = node;
         }   
+        */
 
     }
 }
