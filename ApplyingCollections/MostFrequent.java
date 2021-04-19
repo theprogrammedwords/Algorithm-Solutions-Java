@@ -13,7 +13,7 @@ class MostFrequent {
         String s = sc.nextLine();
 
         Object[] ans = mostFrequent(s);
-        System.out.println(ans[0] + " " + ans[1]);
+        System.out.println(ans[0] + " " + ans[1]); 
     }
 
     static Object[] mostFrequent(String s) {
