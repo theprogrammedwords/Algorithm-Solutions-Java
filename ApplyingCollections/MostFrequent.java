@@ -5,7 +5,7 @@ You are supposed to find out which character occurs the maximum number of times 
 For example, if your string was: aaaaAAAA, your output would be: A 4, because A has lower ASCII value than a
 */
 
-import java.util.*;
+import java.util.*; 
 
 class MostFrequent {
     public static void main(String args[]) {
