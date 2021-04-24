@@ -1,4 +1,4 @@
-# Algorithm Solutions Java
+# Algorithm Solutions
 A Github repository with possible optimal versions of some classical algorithms that we come across, Many a times, these techniques to make program optimal and efficient comes as handy while solving the programming challenges to overcome TLE or Memory constraints. Hope this repository helps in that case.
 
 
