@@ -9,8 +9,5 @@ A Github repository with possible optimal versions of some classical algorithms 
 2. Planning on updating repository with more programs focusing on string manipulation and data structures, greedy approach. 
 
 Keen learners who are interested in for this, can visit and stay tuned with repository. Thanks. :)
-<p>
-<center>
-  <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/theprogrammedwords/Algorithm-Solutions-Java">
-<center>
-</p>
+
+<img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/theprogrammedwords/Algorithm-Solutions-Java">
