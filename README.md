@@ -11,4 +11,4 @@ A Github repository with possible optimal versions of some classical algorithms 
 Keen learners who are interested in for this, can visit and stay tuned with repository. Thanks. :)
 
 
-<img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/theprogrammedwords/Algorithm-Solutions-Java?style=plastic">
+<img alt="GitHub issues" src="https://img.shields.io/github/issues/theprogrammedwords/Algorithm-Solutions-Java?style=plastic">
