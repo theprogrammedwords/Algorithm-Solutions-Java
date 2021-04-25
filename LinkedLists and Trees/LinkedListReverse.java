@@ -13,7 +13,7 @@ public class ListNode {
 }
 
 
-class Solution {
+class LinkedListReverse {
 
     public ListNode linkedListReverse(ListNode head) {
     ListNode curr = head;
