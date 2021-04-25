@@ -31,7 +31,7 @@ import java.io.*;
 import java.util.*;
 import crio.ds.Tree.TreeNode;
 
-/*
+
 Definition of TreeNode
 class TreeNode {
     public long val;
@@ -45,8 +45,7 @@ class TreeNode {
     }
 }
 
-Use new TreeNode(data) to create new Node
-*/
+
 class BinaryTreeLevelOrderTraversal {    
     public List<List<Integer>> binaryTreeLevelOrderTraversal(TreeNode root) {
         List<Integer> listInt = new ArrayList<Integer>();
