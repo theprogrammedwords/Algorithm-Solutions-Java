@@ -31,8 +31,6 @@ import java.io.*;
 import java.util.*;
 import crio.ds.Tree.TreeNode;
 
-
-Definition of TreeNode
 class TreeNode {
     public long val;
     public TreeNode left;
