@@ -1,3 +1,5 @@
+//Given an integer A, generate a square matrix filled with elements from 1 to A*A in spiral order. The spiral order will be clockwise in nature starting from (0,0)
+
 import java.util.*;
 
 class SpiralMatrixII {
