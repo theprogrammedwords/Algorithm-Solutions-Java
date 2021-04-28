@@ -11,7 +11,6 @@ A Github repository with possible optimal versions of some classical algorithms 
 Keen learners who are interested in for this, can visit and stay tuned with repository. Thanks. :)
 
 - [Code review dashboard using Code Inspector tool](https://frontend.code-inspector.com/public/project/22048/Algorithm-Solutions-Java/dashboard)
-
 _Feel free to work on the shortcomings. Thanks _
 
 
