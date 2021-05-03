@@ -22,9 +22,11 @@ Sample Output 1
 Explanation 1
 If we take the contiguous subarray [4 -1 -2 1 5], this subarray has a sum of 7, which is the maximum possible sum.
 */
+
 import java.io.*;
 import java.util.Scanner;
 public class  ContigiousSequence {
+        //To calculate max continuous subsequence
 	public static  long contigiousSequence(int arr[] , int n) {
 		Long maxSum =0L;
 		Long maxSoFar=Long.MIN_VALUE;
