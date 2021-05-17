@@ -45,36 +45,25 @@ class EqualPartition {
         System.out.println(res);
     }
 
-    static int equalPartition(int n, long arr[]) {
+        static int equalPartition(int n, long arr[]) {
 
-        if(n ==1) return -1;
+        if (n ==1) return -1;
 
-        long[] lsum = new long[n];
-        long[] rsum = new long[n];
+        long sum=0;
+        long lsum=0;
+        long rsum=0;
 
-        long lsumm =0L;
-        long rsumm =0L;
-        
-        int res=0;
-        for(int i=0; i<n; i++){
-            lsumm += arr[i];
-            lsum[i] = lsumm;
-            rsumm += arr[n-i-1];
-            rsum[i] = rsumm;
+        for(int i=0; i< n; i++) {
+            sum += arr[i];
         }
-        
 
-        
+        rsum = sum;
+        for(int i=0; i< n; i++) {
+            rsum = rsum - arr[i];
 
-        for(int i=0; i<n; i++){
-            for(int j=0; j<n-1; j++){
-                if(lsum[j] == rsum[i] && arr[j+1] != rsum[i]){
-                    res = j+1;
-                    return res;
-                }
-            }
+            if (rsum == lsum) return i;
+            else lsum += arr[i];
         }
-                
         return -1;
 
     }
