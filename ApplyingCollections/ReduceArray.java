@@ -1,4 +1,7 @@
-/*There is an array of N elements. Perform the following operation until there are only two elements left in the array.
+/*
+There is an array of N elements. Perform the following operation until there are only two elements left in the array.
+Remove the largest and second largest element from the array and insert their absolute difference back in the array.
+
 Input format
 There are two lines of input.
 
@@ -21,7 +24,7 @@ Constraints
 1 <= N <= 10^5
 
 1 <= A[i] <= 10^9
-Remove the largest and second largest element from the array and insert their absolute difference back in the array.
+
 */
 
 import java.util.*;
