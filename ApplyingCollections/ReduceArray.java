@@ -1,5 +1,5 @@
 /*
-There is an array of N elements. Perform the following operation until there are only two elements left in the array.
+There is an array of N elements. Perform the following operation until there are one or no elements left in the array.
 Remove the largest and second largest element from the array and insert their absolute difference back in the array.
 
 Input format
