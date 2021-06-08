@@ -1,5 +1,26 @@
 /*There is an array of N elements. Perform the following operation until there are only two elements left in the array.
+Input format
+There are two lines of input.
 
+First line contains N, the number of elements.
+
+Second line contains N space separated integers.
+
+Output format
+Print the last element left in the array.
+
+Sample Input 1
+5
+
+2 1 11 13 7
+
+Sample Output 1
+2
+
+Constraints
+1 <= N <= 10^5
+
+1 <= A[i] <= 10^9
 Remove the largest and second largest element from the array and insert their absolute difference back in the array.
 */
 
